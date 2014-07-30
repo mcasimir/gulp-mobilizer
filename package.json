@@ -1,0 +1,23 @@
+{
+  "name": "gulp-mobilizer",
+  "version": "0.0.0",
+  "description": "Mobilizer task for Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcasimir/gulp-mobilizer.git"
+  },
+  "keywords": [
+    "gulp",
+    "mobilizer"
+  ],
+  "author": "mcasimir (http://github.com/mcasmir)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcasimir/gulp-mobilizer/issues"
+  },
+  "homepage": "https://github.com/mcasimir/gulp-mobilizer"
+}
