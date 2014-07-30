@@ -1,6 +1,6 @@
 {
   "name": "gulp-mobilizer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Mobilizer task for Gulp",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/mcasimir/gulp-mobilizer/issues"
   },
-  "homepage": "https://github.com/mcasimir/gulp-mobilizer"
+  "homepage": "https://github.com/mcasimir/gulp-mobilizer",
+  "dependencies": {
+    "through2": "^0.5.1",
+    "gulp-util": "^3.0.0",
+    "mobilizer": "^0.1.0"
+  }
 }

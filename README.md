@@ -34,11 +34,11 @@ gulp.task('css', function () {
 
   .pipe(mobilizer('app.css', {
     'mobile.css': {
-      hover: false,
+      hover: 'exclude',
       screens: ['0px']      
     },
     'hover.css': {
-      rules: false,
+      hover: 'only',
       screens: ['0px']
     }
   }))
@@ -50,11 +50,11 @@ gulp.task('css', function () {
 
   .pipe(mobilizer('vendor.css', {
     'vendor-mobile.css': {
-      hover: false,
+      hover: 'exclude',
       screens: ['0px']
     },
     'vendor-hover.css': {
-      rules: false,
+      hover: 'only',
       screens: ['0px']
     }
   }))
