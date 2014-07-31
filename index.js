@@ -1,4 +1,5 @@
-var through = require('through2'),
+var path = require('path'),
+    through = require('through2'),
     gutil = require('gulp-util'),
     PluginError = gutil.PluginError,
     File = gutil.File,
