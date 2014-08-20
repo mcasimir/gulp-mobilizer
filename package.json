@@ -1,6 +1,6 @@
 {
   "name": "gulp-mobilizer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Mobilizer task for Gulp",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   "dependencies": {
     "through2": "^0.5.1",
     "gulp-util": "^3.0.0",
-    "mobilizer": "^0.1.0"
+    "mobilizer": "^0.1.1"
   }
 }
